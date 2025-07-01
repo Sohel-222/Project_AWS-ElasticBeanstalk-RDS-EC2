@@ -60,22 +60,36 @@ Learn how to deploy a web application using AWS Elastic Beanstalk with an integr
 ---
 
 ## 🧱 Architecture Overview
-![Architecture Diagram](project_ss/Beanstalk_RDS-config.png)
+![Architecture Diagram](project_ss/architecture.jpeg)
 
 ---
 
 ## 📸 Output Examples
 
-### ✅ Environment Launch
-![Elastic Beanstalk Deploy](project_ss/elastickbeanstalk-deploy.png)
+### ✅ Elastic Beanstalk Deployment
+![Elastic Beanstalk Deployment](project_ss/elastickbeanstalk-deploy.png)
 
-### ✅ RDS Created During Launch
-![RDS Console](project_ss/RDS-console.png)
+### ✅ RDS Instance Created
+![RDS Instance Screenshot](project_ss/RDS-console.png)
 
-### ✅ Application + RDS + EC2 Access
-![Environment + RDS](project_ss/Env&RDS-Launched.png)
-![EC2 Launched](project_ss/Ec2-lauchbyBeanstalk.png)
-![Access via EC2](project_ss/successful_launch-rds_onEC2.png)
+### ✅ Environment & RDS Launch View
+![Environment and RDS](project_ss/Env&RDS-Launched.png)
+
+### ✅ EC2 Launched by Beanstalk
+![EC2 Launch](project_ss/Ec2-lauchbyBeanstalk.png)
+
+### ✅ MySQL Access from EC2
+![Accessing RDS via EC2](project_ss/mysql-vai-ec2cli.jpg)
+
+### ✅ Using Parameter Store for Credentials
+![SSM Parameter Store](project_ss/ssm-para_via_console.png)
+![SSM Parameter Through CLI](project_ss/ssm-parameter.jpg)
+
+### ✅ Python Script for storing data into RDS
+![Python Script & Output](project_ss/MS-Sql_Scrip_Exec.jpg)
+
+### ✅ Checking the details after python script run
+![Details of RDS on EC2](project_ss/Checking-RdsDetails_onAnotherEC2.png)
 
 ---
 
